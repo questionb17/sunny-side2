@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+
+
+.container{
+	background-image: url(../image-header.jpg);
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 100%;
+    background-position: 0px 70%;
+}
+
+.pa{
+   color: white;
+   font-size: 40px;
+   padding-left: 60px; 
+   padding-right: 15px;
+   padding-top: 90px;
+   padding-bottom: 120px;
+   height: 390px;
+   width: 1100px;
+   margin-top: 50px;
+   margin-left: 50px;
+   margin-right: 5px;
+   top: 20px;
+   text-align: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+    padding-top: -400px;
+    padding-right: 30px;
+    padding-left: 900px;
+}
+
+ul li{
+	display: inline-flex;
+    color: white;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+/* ul li {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+} */
+
+ul li:hover{
+	background-color: black;
+	color: white;
+}
+
+
+.sun{
+    text-align: left;
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+button{
+    position: absolute;
+    width: 100px;
+    border-radius: 30px;
+    height: 20px;
+}
+
+
+/* .card{
+    height: 150px;
+    display: flex;
+    color: grey;
+} */
+
+.part{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.dittle{
+    width: 50%;
+    height: 70%;
+    background-image: url(../images/mobile/image-transform.jpg);
+    margin-top: 0px;
+    margin-left: 673px;
+    position: absolute;
+}
+
+.to{
+    width: 50%;
+    height: 70%;
+    background-image: url(../images/mobile/image-stand-out.jpg);
+    margin-left: 0px;
+    margin-top: 473px;
+    position: absolute;
+}
+
+h1{
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 69px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+}
+
+.transform{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-top: 200px;
+    position: absolute;
+}
+
+.learn-more{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 50px;
+    padding-top: 300px;
+    position: absolute;
+}
+
+.st{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    margin-top: 528px;
+    position: absolute;
+    margin-left: 749px;
+}
+
+.star{
+    width: 50%;
+    height: 70%;
+    background-image: url(../images/mobile/image-photography.jpg);
+    margin-top: 920px;
+    position: absolute;
+    margin-left: 675px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+}
+
+.toro{
+    width: 50%;
+    height: 70%;
+    margin-top: 920px;
+    position: absolute;
+    background-image: url(../image-graphic-design.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: 0px 38%;
+}
+
+
+
+h2{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50px;
+    padding-top: 69px;
+    position: absolute;
+}
+
+.collaborative{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-top: 165px;
+    position: absolute;
+}
+
+.learn-more-2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-top: 290px;
+}
+
+.h3{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 80px;
+    padding-top: 250px;
+}
+
+.great{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 80px;
+    padding-top: 350px;
+}
+
+.h4{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 120px;
+    padding-top: 260px;
+}
+
+.increase{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 120px;
+    padding-top: 350px;
+}
+
+.client-testimonials{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    margin-top: 1360px;
+}
+
+.emi{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    margin-left: 338px;
+
+}
+
+.thoma{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    margin-left: 425px;
+}
+
+.jenn{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    margin-left: 878px;
+}
+
+.incred{
+    padding-left: 50px;
+    padding-top: 400px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+}
+
+.jen{
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 510px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.bus{
+    padding-left: 50px;
+    padding-top: 550px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+}
+
+#img-jen{
+    width: 60px;
+    margin-top: 289px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.su{
+    padding-left: 45px;
+    padding-top: 400px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+}
+
+.s{
+    padding-left: 45px;
+    padding-top: 540px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute; 
+}
+
+.cof{
+    padding-left: 45px;
+    padding-top: 570px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+}
+
+#img-thom{
+    width: 70px;
+    position: absolute;
+    margin-top: 289px;
+    margin-left: 150px;
+}
+
+.wep{
+    padding-left: 5px;
+    padding-top: 400px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+}
+.r{
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 540px;
+    font-size: 20px;
+    position: absolute;
+}
+.md{
+    padding-left: 5px;
+    padding-top: 570px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+}
+
+#img-em{
+    width: 70px;
+    position: absolute;
+    margin-top: 289px;
+    margin-left: 100px;
+}
+
+.mocs{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    margin-top: 2000px;
+    display: flex;
+}
+
+.milk-bottles{
+    width: 25%;
+    height: 100%;
+    background-image: url(../images/mobile/image-gallery-milkbottles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orange{
+    width: 25%;
+    height: 100%;
+}
+
+#img-orange{
+    width: 25%;
+    margin-left: -337px;
+}
+
+.cone{
+    width: 25%;
+    height: 100%;
+}
+
+#img-cone{
+    width: 100%;
+    height: 700px;
+}
+
+
+.sugar-cubes{
+    width: 25%;
+    height: 100%;
+}
+
+#img-sugar{
+    width: 100%;
+    height: 700px;
+}
